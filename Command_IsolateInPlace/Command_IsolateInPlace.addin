@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Command_IsolateInPlace</Text>
+    <Description>Some description for Command_IsolateInPlace</Description>
+    <Assembly>Command_IsolateInPlace.dll</Assembly>
+    <FullClassName>Command_IsolateInPlace.Command</FullClassName>
+    <ClientId>5821a568-369c-4d66-9dde-0b99e701c0c1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Command_IsolateInPlace</Name>
+    <Assembly>Command_IsolateInPlace.dll</Assembly>
+    <FullClassName>Command_IsolateInPlace.App</FullClassName>
+    <ClientId>4ecc1fd7-034e-4ada-a34c-d0b583a96b0c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
